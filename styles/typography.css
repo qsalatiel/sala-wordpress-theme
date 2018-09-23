@@ -1,0 +1,11 @@
+.title-large {
+    font-family: var(--font-title);
+    color: var(--color-title-h1);
+    line-height: 125%;
+    font-size: 3em;
+    text-transform: uppercase;
+}
+.title-large a {
+    color: var(--color-title-h1);
+    border-bottom: 2px var(--border-link) solid;
+}

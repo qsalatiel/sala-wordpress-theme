@@ -1,0 +1,43 @@
+/*
+Theme Name: Sala Wordpress Theme
+Theme URI: http://salatiel.work
+Author: Salatiel QUeiroz
+Author URI: http://salatiel.work
+Description: Modern, simple and minimalist Wordpress theme for personal blogs and portfolio websites
+License: Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+License URI: https://creativecommons.org/licenses/by-nc-nd/4.0/
+Tags: white, black, simple, minimalist
+*/
+@import url("styles/_variables.css");
+@import url("styles/typography.css");
+@import url("styles/header.css");
+* {
+    box-sizing: border-box;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 1224px;
+    margin: 0 auto;
+}
+body {
+    font-family: var(--font-family-default);
+    font-size: var(--font-size-default);
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.s-grid--home {
+    display: grid;
+    grid-template-columns: 50.5em 5em 18em;
+    grid-gap: 1.5em;
+}
+.sidebar {
+    grid-column-start: 3;
+    grid-column-end: 3;
+}

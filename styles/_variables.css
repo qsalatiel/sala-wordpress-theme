@@ -1,0 +1,32 @@
+:root {
+    /* colors */
+    --black: #30353B;
+    --grey: #97A3B2;
+    --grey-dark: #606A77;
+    --grey-darker: #4A525C;
+    --grey-lighter: #E5E5E5;
+    
+    /* fonts */
+    --font-nunito: "Nunito Sans", sans-serif;
+    --font-montserrat: "Montserrat", sans-serif;
+
+    /* sizes */
+    --font-size-default: 1em;
+    
+    /* color utilities variables */
+    --color-primary: var(--black);
+
+    --color-nav-item: var(--color-grey-dark);
+    --color-nav-item-hover: var(--black);
+
+    --color-title-h1: var(--black);
+
+
+    /* fonts utilities variables */
+    --font-family-default: var( --font-nunito);
+    --font-title: var(--font-montserrat);
+    --font-nav: var(--font-montserrat);
+
+    --border-link: var(--grey-lighter);
+
+}

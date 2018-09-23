@@ -1,0 +1,26 @@
+.custom-logo-link img {
+    height: 3em;
+    width: 204px;
+}
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    height: 5em;
+    padding: 1em 0;
+}
+.nav-menu ul {
+    display: flex;
+    font-family: var(--font-nav);
+}
+.nav-menu ul li a {
+    margin-left: 1em;
+    padding: .5em;
+    color: var(--color-nav-item);
+}
+.nav-menu ul li a:hover {
+    color: var(--color-nav-item-hover);
+}
+.blog-hero {
+    margin-top: 5em;
+    margin-bottom: 6em;
+}
