@@ -11,7 +11,8 @@
     --font-montserrat: "Montserrat", sans-serif;
 
     /* sizes */
-    --font-size-default: 1em;
+    --font-size-default: 1rem;
+    --font-size-h2: 2rem;
     
     /* color utilities variables */
     --color-primary: var(--black);
@@ -20,6 +21,8 @@
     --color-nav-item-hover: var(--black);
 
     --color-title-h1: var(--black);
+    --color-title-h2: var(--black);
+    --color-text: var(--grey-dark);
 
 
     /* fonts utilities variables */

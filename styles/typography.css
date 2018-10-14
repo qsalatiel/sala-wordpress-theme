@@ -1,3 +1,11 @@
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0;
+}
+
 .title-large {
     font-family: var(--font-title);
     color: var(--color-title-h1);
@@ -8,4 +16,14 @@
 .title-large a {
     color: var(--color-title-h1);
     border-bottom: 2px var(--border-link) solid;
+}
+.title-h2  {
+    font-family: var(--font-title);
+    color: var(--color-title-h2);
+    font-size: var(--font-size-h2);
+    line-height: 125%;
+    font-weight: 400;
+}
+a.title-h2  {
+    text-decoration: none;
 }
