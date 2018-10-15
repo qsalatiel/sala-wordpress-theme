@@ -30,7 +30,6 @@
             </div>
 
             <div class="sidebar">
-sidebar
             </div>
         </div>
     </div>
